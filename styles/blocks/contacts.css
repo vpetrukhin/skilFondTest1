@@ -1,0 +1,27 @@
+.contacts {
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff
+}
+.contacts__adress {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+.contacts__tel {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 14px;
+  text-align: right;
+}
+.contacts__tel:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 450px) {
+  .contacts__tel {
+    text-align: center;
+  }
+}

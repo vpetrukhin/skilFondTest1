@@ -8,9 +8,30 @@
   <link rel="stylesheet" href="./index.css">
 </head>
 
-<body>
+<body class="page">
   <header class="header">
-
+    <div class="header__container container">
+      <div class="header__head">
+        <div class="header__logo-wrapper">
+          <p class="header__logo">Ваш логотип</p>
+          <p class="header__tagline">слоган компании</p>
+        </div>
+        <div class="header__contacts contacts">
+          <p class="contacts__adress">г. Название, ул. Название улицы, д. №</p>
+          <p class="contacts__tel">+7 900 00-00-000</p>
+          <p class="contacts__tel">+7 900 00-00-000</p>
+        </div>
+      </div>
+      <div class="header__body">
+        <form class="header__form form">
+          <h2 class="form__title">Хотите стать еще красивее</h2>
+          <input type="text" name="name" id="name" class="form__input" placeholder="Введите имя">
+          <input type="text" name="tel" id="tel" class="form__input" placeholder="Введите телефон">
+          <button type="submit" class="form__btn">отправить заявку</button>
+          <p class="form__info-text">В течении часа мы свяжемся с Вами для согласования удобного времени</p>
+        </form>
+      </div>
+    </div>
   </header>
   <main class="main"></main>
   <footer class="footer"></footer>

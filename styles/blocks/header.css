@@ -1,0 +1,52 @@
+.header {
+  height: 600px;
+  padding-top: 40px;
+  background: url('../../img/bg1.png') no-repeat top center ;
+}
+.header__head {
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+  color: #ffffff;
+}
+.header__tagline {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+}
+.header__body {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__form {
+  max-width: 260px;
+}
+
+@media screen and (max-width: 960px) {
+  .header__container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__head {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .header__tagline {
+    margin-bottom: 25px;
+  }
+  .header__body {
+    justify-content: center;
+  }
+}
