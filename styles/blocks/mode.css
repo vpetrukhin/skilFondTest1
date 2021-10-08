@@ -1,0 +1,18 @@
+.mode {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff
+}
+.mode__text {
+  margin: 0;
+}
+.mode__text:not(:last-of-type) {
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width: 470px) {
+  .mode {
+    margin-bottom: 20px;
+  }
+}

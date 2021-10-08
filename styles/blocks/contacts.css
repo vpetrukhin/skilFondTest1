@@ -20,7 +20,7 @@
   margin-bottom: 12px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
   .contacts__tel {
     text-align: center;
   }
