@@ -1,0 +1,32 @@
+.partners {
+  padding: 40px 0 70px;
+  font-family: 'Fira Sans',
+  sans-serif;
+  background-color: #0a4744;
+}
+.partners__title {
+  margin: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.partners__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+  .partners__container {
+    width: 90%;
+  }
+  .partners__list {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
