@@ -1,4 +1,11 @@
-.container  {
+.container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.image {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border: 5px solid #0a4744;
 }
