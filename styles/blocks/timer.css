@@ -1,0 +1,43 @@
+.timer {
+  max-width: 240px;
+}
+.timer__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ffcb3a;
+  text-align: center;
+}
+.timer__body {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #494a4d;
+  color: #fff;  
+}
+.timer__wrapper {
+  position: relative;
+}
+.timer__wrapper::after {
+  content: ':';
+  display: inline-block;
+  position: absolute;
+  top: calc(50% - 30px);
+  right: -5px;
+  font-size: 36px;
+}
+.timer__wrapper:last-of-type::after {
+  content: '';
+  display: none;
+}
+.timer__count {
+  display: inline-block;
+  width: 100%;
+  font-size: 36px;
+  text-align: center;
+}
+.timer__text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}

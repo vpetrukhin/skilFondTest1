@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+  font-family: 'Fira Sans', sans-serif;
+}
+.awards__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+.awards__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 35px;
+}
+
+@media screen and (max-width: 980px) {
+  .awards__list {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .awards {
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,50 @@
+.stock {
+  font-family: 'Fira Sans', sans-serif;
+  background: url('../../img/bg1.png') no-repeat top -100px right 20%;
+}
+.stock__inner {
+  max-width: 520px;
+  margin-left: auto;
+  padding-top: 35px;
+}
+.stock__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+.stock__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+.stock__subtitle_big {
+  font-size: 25px;
+}
+.stock__timer {
+  margin: 0 auto 25px;
+}
+
+@media screen and (max-width: 980px) {
+  .stock {
+    background-position: center;
+  }
+  .stock__inner {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stock {
+    background-size: cover;
+  }
+  .stock__inner {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

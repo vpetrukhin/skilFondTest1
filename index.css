@@ -9,4 +9,7 @@
 @import url('./styles/blocks/header.css');
 @import url('./styles/blocks/main.css');
 @import url(./styles/blocks/services.css);
+@import url('./styles/blocks/stock.css');
+@import url('./styles/blocks/timer.css');
+@import url('./styles/blocks/awards.css');
 @import url('./styles/blocks/footer.css');
